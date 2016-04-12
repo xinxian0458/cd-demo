@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to the new great Continuous Delivery demonstration!"
+title:  "Welcome to the SFDC Continuous Delivery demonstration!"
 categories: demo
 ---
 
