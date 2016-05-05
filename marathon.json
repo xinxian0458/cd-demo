@@ -15,8 +15,8 @@
   },
   "labels": {
     "HAPROXY_GROUP": "external",
-    "HAPROXY_0_VHOST": "brenden-7-publicsl-1dnroe89snjkq-221614774.us-west-2.elb.amazonaws.com",
-    "lastChangedBy": "sunil@mesosphere.io"
+    "HAPROXY_0_VHOST": "vishnu-uy-elasticl-auw35ol38ze7-1384487705.us-east-1.elb.amazonaws.com",
+    "lastChangedBy": "vishnu@mesosphere.io"
   },
   "instances": 1,
   "cpus": 0.1,
