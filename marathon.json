@@ -15,7 +15,7 @@
   },
   "labels": {
     "HAPROXY_GROUP": "external",
-    "HAPROXY_0_VHOST": "vishnu-uy-elasticl-auw35ol38ze7-1384487705.us-east-1.elb.amazonaws.com",
+    "HAPROXY_0_VHOST": "vishnu-1n-publicsl-ruocv8h8m8h7-754229315.us-east-1.elb.amazonaws.com",
     "lastChangedBy": "vishnu@mesosphere.io"
   },
   "instances": 1,
