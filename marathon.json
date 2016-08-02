@@ -26,7 +26,7 @@
     "id": "cd-demo-app",
     "instances": 1,
     "labels": {
-        "HAPROXY_0_VHOST": "dcosagent.eastus.cloudapp.azure.com",
+        "HAPROXY_0_VHOST": "keithmccl-publicsl-m06mq6dprlaz-1996828443.us-west-2.elb.amazonaws.com",
         "HAPROXY_GROUP": "external",
         "lastChangedBy": "sunil@mesosphere.io"
     },
