@@ -88,9 +88,10 @@ def install(dcos_url, jenkins_name, jenkins_url):
     log ("Installing Jenkins with name {}.".format(jenkins_name))
     shutil.copyfile("conf/jenkins.json", "tmp/jenkins.json")
     rename("tmp/jenkins.json", jenkins_name)
-    command = "dcos package install --yes --options=tmp/jenkins.json jenkins"
+    #command = "dcos package install --yes --options=tmp/jenkins.json jenkins"
+    command = "dcos package install --package-version=0.2.1 --yes jenkins"
     print ("\n> " + command)
-    if call (['dcos', 'package', 'install', '--yes', '--options=tmp/jenkins.json', 'jenkins']) != 0:
+    if call (['dcos', 'package', 'install', '--yes', '--package-version=0.2.1', 'jenkins']) != 0:
         log_and_exit ("Failed to install Jenkins.")
     log("Jenkins has been installed! Wait for it to come up before proceeding at: {}".format(jenkins_url))
 
