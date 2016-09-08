@@ -6,4 +6,4 @@ categories: demo
 
 This is an example post that you can make using Markdown to demonstrate a website being statically generated and deployed!
 
-Jenkins 2.0 on DC/OS
+Update Jekyll with integrated CI/CD
