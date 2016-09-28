@@ -1,7 +1,7 @@
 {
     "container": {
         "docker": {
-            "image": "mesosphere/cd-demo-app:latest",
+            "image": "jiezhang/cd-demo-app:latest",
             "network": "BRIDGE",
             "portMappings": [
                 {
@@ -16,9 +16,9 @@
     "id": "cd-demo-app",
     "instances": 1,
     "labels": {
-        "HAPROXY_0_VHOST": "joshb-y5e-publicsl-kcdqlaxjpord-1773127523.us-west-2.elb.amazonaws.com",
+        "HAPROXY_0_VHOST": "opendcos-PublicSla-1C6VAC5LIXSH-741627927.ap-southeast-1.elb.amazonaws.com",
         "HAPROXY_GROUP": "external",
-        "lastChangedBy": "velocity-team@mesosphere.io"
+        "lastChangedBy": "zhangjie0220@gmail.com"
     },
     "mem": 128,
     "upgradeStrategy": {
