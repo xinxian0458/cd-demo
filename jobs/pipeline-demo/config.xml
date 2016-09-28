@@ -14,7 +14,7 @@
       <configVersion>2</configVersion>
       <userRemoteConfigs>
         <hudson.plugins.git.UserRemoteConfig>
-          <url>https://github.com/mesosphere/cd-demo.git</url>
+          <url>https://github.com/xinxian0458/cd-demo.git</url>
         </hudson.plugins.git.UserRemoteConfig>
       </userRemoteConfigs>
       <branches>

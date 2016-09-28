@@ -11,7 +11,7 @@ email: demo@mesosphere.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: mesosphere
-github_username:  mesosphere
+github_username:  xinxian0458
 
 # Build settings
 markdown: kramdown

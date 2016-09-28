@@ -1,7 +1,7 @@
 {
     "container": {
         "docker": {
-            "image": "mesosphere/cd-demo-app:latest",
+            "image": "jiezhang/cd-demo-app:latest",
             "network": "BRIDGE",
             "portMappings": [
                 {
@@ -18,7 +18,7 @@
     "labels": {
         "HAPROXY_0_VHOST": "ELB_HOSTNAME",
         "HAPROXY_GROUP": "external",
-        "lastChangedBy": "velocity-team@mesosphere.io"
+        "lastChangedBy": "zhangjie0220@gmail.com"
     },
     "mem": 128,
     "upgradeStrategy": {
