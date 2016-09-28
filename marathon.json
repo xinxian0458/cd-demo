@@ -16,7 +16,7 @@
     "id": "cd-demo-app",
     "instances": 1,
     "labels": {
-        "HAPROXY_0_VHOST": "opendcos-PublicSla-1C6VAC5LIXSH-741627927.ap-southeast-1.elb.amazonaws.com",
+        "HAPROXY_0_VHOST": "opendcos-publicsla-1tntvszs1n47b-1557459042.ap-southeast-1.elb.amazonaws.com",
         "HAPROXY_GROUP": "external",
         "lastChangedBy": "zhangjie0220@gmail.com"
     },
